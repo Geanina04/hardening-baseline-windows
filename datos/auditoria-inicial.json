@@ -1,14 +1,14 @@
 ﻿{
     "equipo":  "EQUIPO-PRUEBA",
-    "fecha":  "2026-10-24T17:04:47.0434917-06:00",
+    "fecha":  "2026-10-24T17:39:59.2470007-06:00",
     "sistema":  "Microsoft Windows 10 Pro",
     "tipo":  "auditoria_inicial_solo_lectura",
     "resumen":  {
                     "total":  4,
                     "evaluados":  4,
-                    "cumplen":  3,
+                    "cumplen":  4,
                     "no_evaluados":  0,
-                    "porcentaje_cumplimiento":  75
+                    "porcentaje_cumplimiento":  100
                 },
     "controles":  [
                       {
@@ -39,9 +39,9 @@
                           "id":  "RDP-01",
                           "nombre":  "RDP deshabilitado o NLA habilitado",
                           "esperado":  "RDP deshabilitado o NLA=1",
-                          "actual":  "RDP habilitado; NLA=",
-                          "estado":  "No cumple",
-                          "detalle":  "NLA requiere autenticacion antes de la sesion."
+                          "actual":  "RDP deshabilitado",
+                          "estado":  "Cumple",
+                          "detalle":  "No se permite acceso remoto por RDP."
                       }
                   ]
 }
