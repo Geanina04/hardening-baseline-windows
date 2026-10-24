@@ -1,0 +1,47 @@
+﻿{
+    "equipo":  "EQUIPO-PRUEBA",
+    "fecha":  "2026-10-24T17:04:47.0434917-06:00",
+    "sistema":  "Microsoft Windows 10 Pro",
+    "tipo":  "auditoria_inicial_solo_lectura",
+    "resumen":  {
+                    "total":  4,
+                    "evaluados":  4,
+                    "cumplen":  3,
+                    "no_evaluados":  0,
+                    "porcentaje_cumplimiento":  75
+                },
+    "controles":  [
+                      {
+                          "id":  "FW-01",
+                          "nombre":  "Firewall habilitado en todos los perfiles",
+                          "esperado":  "Todos habilitados",
+                          "actual":  "Domain=True; Private=True; Public=True",
+                          "estado":  "Cumple",
+                          "detalle":  "Revisar los perfiles existentes."
+                      },
+                      {
+                          "id":  "UAC-01",
+                          "nombre":  "UAC habilitado",
+                          "esperado":  "EnableLUA=1",
+                          "actual":  "EnableLUA=1",
+                          "estado":  "Cumple",
+                          "detalle":  "Verificacion de Control de cuentas de usuario."
+                      },
+                      {
+                          "id":  "SMB-01",
+                          "nombre":  "SMBv1 deshabilitado",
+                          "esperado":  "Disabled",
+                          "actual":  "Disabled",
+                          "estado":  "Cumple",
+                          "detalle":  "Si la caracteristica no esta disponible, registrar como No evaluado."
+                      },
+                      {
+                          "id":  "RDP-01",
+                          "nombre":  "RDP deshabilitado o NLA habilitado",
+                          "esperado":  "RDP deshabilitado o NLA=1",
+                          "actual":  "RDP habilitado; NLA=",
+                          "estado":  "No cumple",
+                          "detalle":  "NLA requiere autenticacion antes de la sesion."
+                      }
+                  ]
+}
