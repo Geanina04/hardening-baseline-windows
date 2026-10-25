@@ -1,17 +1,17 @@
 ﻿{
     "equipo":  "EQUIPO-PRUEBA",
-    "fecha":  "2026-10-24T18:14:11.7780232-06:00",
+    "fecha":  "2026-10-24T18:28:05.3341833-06:00",
     "sistema":  "Microsoft Windows 10 Pro",
     "tipo":  "auditoria_baseline_consolidada_solo_lectura",
-    "nota":  "15 controles unicos de la auditoria ampliada. Firewall se evalua por perfil; UAC, SMBv1 y RDP se revisan una sola vez. Los umbrales provisionales requieren benchmark, version y perfil documentados.",
+    "nota":  "Los umbrales provisionales requieren benchmark, version y perfil documentados.",
     "resumen":  {
                     "total":  15,
-                    "evaluados":  12,
-                    "cumplen":  9,
+                    "evaluados":  13,
+                    "cumplen":  10,
                     "no_cumplen":  3,
-                    "no_evaluados":  3,
-                    "no_aplica":  0,
-                    "porcentaje_cumplimiento":  75
+                    "no_evaluados":  0,
+                    "no_aplica":  2,
+                    "porcentaje_cumplimiento":  76.92
                 },
     "controles":  [
                       {
@@ -52,7 +52,7 @@
                           "esperado":  "Disabled",
                           "actual":  "Disabled",
                           "estado":  "Cumple",
-                          "detalle":  "Consulta de solo lectura; si no se puede consultar, se registra No evaluado."
+                          "detalle":  "Consulta de solo lectura."
                       },
                       {
                           "id":  "RDP-01",
@@ -68,7 +68,7 @@
                           "esperado":  "\u003e=14 (criterio provisional)",
                           "actual":  "0",
                           "estado":  "No cumple",
-                          "detalle":  "Valor consultado en la politica local. Confirmar el criterio con la linea base y version elegidas."
+                          "detalle":  "Valor consultado en la politica local. Confirmar el criterio con la linea base elegida."
                       },
                       {
                           "id":  "PW-02",
@@ -76,7 +76,7 @@
                           "esperado":  "\u003e=24 (criterio provisional)",
                           "actual":  "0",
                           "estado":  "No cumple",
-                          "detalle":  "Valor consultado en la politica local. Confirmar el criterio con la linea base y version elegidas."
+                          "detalle":  "Valor consultado en la politica local. Confirmar el criterio con la linea base elegida."
                       },
                       {
                           "id":  "PW-03",
@@ -84,7 +84,7 @@
                           "esperado":  "Entre 1 y 365 dias (criterio provisional)",
                           "actual":  "42",
                           "estado":  "Cumple",
-                          "detalle":  "Valor consultado en la politica local. Confirmar el criterio con la linea base y version elegidas."
+                          "detalle":  "Valor consultado en la politica local. Confirmar el criterio con la linea base elegida."
                       },
                       {
                           "id":  "AC-01",
@@ -92,31 +92,31 @@
                           "esperado":  "Entre 1 y 10 intentos (criterio provisional)",
                           "actual":  "0",
                           "estado":  "No cumple",
-                          "detalle":  "Valor consultado en la politica local. Confirmar el criterio con la linea base y version elegidas."
+                          "detalle":  "Valor consultado en la politica local. Confirmar el criterio con la linea base elegida."
                       },
                       {
                           "id":  "AC-02",
                           "nombre":  "Duracion del bloqueo de cuenta",
                           "esperado":  "\u003e=15 minutos (criterio provisional)",
-                          "actual":  "No disponible",
-                          "estado":  "No evaluado",
-                          "detalle":  "No se pudo leer \u0027LockoutDuration\u0027 de la politica local. Verificar permisos y disponibilidad en esta version de Windows."
+                          "actual":  "No aplica: umbral de bloqueo = 0",
+                          "estado":  "No aplica",
+                          "detalle":  "El bloqueo por intentos fallidos no esta activo; revisar AC-01."
                       },
                       {
                           "id":  "AC-03",
                           "nombre":  "Restablecimiento del contador de bloqueo",
                           "esperado":  "\u003e=15 minutos (criterio provisional)",
-                          "actual":  "No disponible",
-                          "estado":  "No evaluado",
-                          "detalle":  "No se pudo leer \u0027ResetLockoutCount\u0027 de la politica local. Verificar permisos y disponibilidad en esta version de Windows."
+                          "actual":  "No aplica: umbral de bloqueo = 0",
+                          "estado":  "No aplica",
+                          "detalle":  "El bloqueo por intentos fallidos no esta activo; revisar AC-01."
                       },
                       {
                           "id":  "SEC-01",
-                          "nombre":  "Cuenta Guest deshabilitada",
+                          "nombre":  "Cuenta integrada Guest deshabilitada",
                           "esperado":  "Enabled=False",
-                          "actual":  "No disponible",
-                          "estado":  "No evaluado",
-                          "detalle":  "No se encontró el usuario Guest."
+                          "actual":  "Nombre=Invitado; Enabled=False",
+                          "estado":  "Cumple",
+                          "detalle":  "Cuenta identificada por SID -501; el nombre puede estar localizado o renombrado."
                       },
                       {
                           "id":  "AU-01",
@@ -124,7 +124,7 @@
                           "esperado":  "IsEnabled=True",
                           "actual":  "True",
                           "estado":  "Cumple",
-                          "detalle":  "Comprueba el registro; no confirma por si solo que todas las subcategorias de auditoria esten configuradas."
+                          "detalle":  "Comprueba el registro; no confirma todas las subcategorias de auditoria."
                       },
                       {
                           "id":  "AU-02",
