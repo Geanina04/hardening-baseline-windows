@@ -1,0 +1,11 @@
+.tools/
+node_modules/
+respaldos/
+*.tmp
+*.log
+*.sdb
+*.jfm
+*.etl
+~$*
+.DS_Store
+evidencia/privado/

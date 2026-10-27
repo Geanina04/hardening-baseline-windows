@@ -1,0 +1,57 @@
+{
+  "fecha": "2026-10-26T20:52:10.974Z",
+  "casos": [
+    {
+      "prueba": "JSON real y esquema completo",
+      "resultado": "Pasa"
+    },
+    {
+      "prueba": "Todos los JSON de auditoría modernos",
+      "resultado": "Pasa"
+    },
+    {
+      "prueba": "IDs únicos y veinte controles",
+      "resultado": "Pasa"
+    },
+    {
+      "prueba": "Rechaza ID duplicado",
+      "resultado": "Pasa"
+    },
+    {
+      "prueba": "Rechaza resumen falsificado",
+      "resultado": "Pasa"
+    },
+    {
+      "prueba": "Denominador y cinco estados",
+      "resultado": "Pasa"
+    },
+    {
+      "prueba": "Sin evaluables: indeterminado",
+      "resultado": "Pasa"
+    },
+    {
+      "prueba": "Rechaza campos ausentes, tipos y estados",
+      "resultado": "Pasa"
+    },
+    {
+      "prueba": "Comparación por ID sin depender del orden",
+      "resultado": "Pasa"
+    },
+    {
+      "prueba": "Mejora, deterioro y ausentes",
+      "resultado": "Pasa"
+    },
+    {
+      "prueba": "No compara referencias, ediciones u orígenes distintos",
+      "resultado": "Pasa"
+    },
+    {
+      "prueba": "Texto hostil se conserva como dato; fuente javascript no se ejecuta",
+      "resultado": "Pasa"
+    },
+    {
+      "prueba": "Experimento: comparación y restauración reales",
+      "resultado": "Pasa"
+    }
+  ]
+}

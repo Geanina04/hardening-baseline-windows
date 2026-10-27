@@ -1,0 +1,8 @@
+{
+  "fecha": "2026-10-26T14:11:03.9713042-06:00",
+  "fase": "Finalizado y revertido",
+  "error": null,
+  "respaldo": "respaldos/512b52f1eda447479572daf0f6bb7818.json",
+  "snapshot": "No disponible desde el invitado; respaldo selectivo con hash",
+  "reversion_completa": true
+}

@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self' data: blob:; connect-src 'none'; font-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'">
+  <meta name="color-scheme" content="light dark">
+  <title>Baseline · Observatorio de seguridad Windows</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/model.js" defer></script>
+  <script src="js/ejemplo.js" defer></script>
+  <script src="js/app.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#contenido">Saltar al contenido</a>
+<aside class="sidebar">
+  <a href="#inicio" class="brand"><span class="brand-symbol" aria-hidden="true">B</span><span>baseline<span class="brand-sub">WINDOWS SECURITY LAB</span></span></a>
+  <p class="nav-label">ESPACIO DE TRABAJO</p>
+  <nav aria-label="Principal"><a href="#inicio">01 <span>Inicio</span></a><a href="#dashboard">02 <span>Resumen</span></a><a href="#detalle">03 <span>Controles</span></a><a href="#comparacion">04 <span>Antes / después</span></a><a href="#acerca">05 <span>Metodología</span></a></nav>
+  <div class="sidebar-note"><span class="privacy-dot" aria-hidden="true"></span><strong>Datos en tu equipo</strong><p>Los archivos se procesan dentro del navegador. Sin cuentas ni conexión.</p></div>
+  <footer>UTN · Ingeniería del Software<br>ISW-612 / A.5 · 2026</footer>
+</aside>
+<main id="contenido">
+  <header class="topbar"><span>LABORATORIO / <strong>HARDENING</strong></span><div><button id="theme" class="quiet" type="button" aria-pressed="false">Modo oscuro</button><span class="local-badge">● LOCAL</span></div></header>
+  <section id="inicio" aria-labelledby="titulo">
+    <div class="eyebrow">MEDIR. ENDURECER. VERIFICAR.</div><h1 id="titulo">Una línea base.<br><span>Decisiones con evidencia.</span></h1>
+    <p class="lead">Conoce qué configuraciones de Windows cumplen las recomendaciones seleccionadas y qué cambia al aplicar el endurecimiento.</p>
+    <ol class="steps"><li><span>1</span><div><strong>Ejecuta el script</strong><small>Audita tu VM con PowerShell.</small></div></li><li><span>2</span><div><strong>Carga el JSON</strong><small>Selecciona la salida de la auditoría.</small></div></li><li><span>3</span><div><strong>Consulta y compara</strong><small>Explora hallazgos y cambios.</small></div></li></ol>
+    <div class="upload-panel" id="dropzone"><div><span class="eyebrow">TU EVIDENCIA, EN UN SOLO LUGAR</span><h2>Arrastra tu auditoría aquí</h2><p>Archivo JSON del script · hasta 5 MiB · procesamiento local</p><label class="button primary" for="file">Seleccionar JSON <span aria-hidden="true">↗</span></label><input class="file-input" id="file" type="file" accept=".json,application/json"><button id="example" class="button secondary" type="button">Cargar datos de ejemplo</button></div><div class="upload-mark" aria-hidden="true">{<span>✓</span>}</div></div>
+    <p id="message" role="status" aria-live="polite">Carga una auditoría para comenzar. El ejemplo corresponde a una ejecución real identificada.</p>
+  </section>
+  <section id="dashboard" aria-labelledby="dashboard-title">
+    <div class="section-heading"><div><span class="eyebrow">VISIÓN GENERAL</span><h2 id="dashboard-title">Estado de la línea base</h2></div><div class="actions"><button id="export" disabled type="button">Descargar JSON</button><button id="print" disabled type="button">Imprimir / PDF</button></div></div>
+    <p id="dataset" class="dataset">Sin archivo cargado</p>
+    <div class="overview-grid"><article class="card score-card"><div><span class="eyebrow">CUMPLIMIENTO</span><strong id="score">—</strong><p id="level">Esperando evidencia</p><small id="denominator">Solo cuentan «Cumple» y «No cumple».</small></div><svg viewBox="0 0 140 140" role="img" aria-label="Gráfico de cumplimiento" class="donut"><circle class="track" cx="70" cy="70" r="55"/><circle id="arc" class="arc" cx="70" cy="70" r="55" stroke-dasharray="0 345.58" transform="rotate(-90 70 70)"/><text id="donut-number" x="70" y="76" text-anchor="middle">—</text></svg></article><div class="metrics"><article class="card"><span>Evaluados</span><strong id="evaluated">—</strong><small>Denominador del puntaje</small></article><article class="card good"><span>Cumplen</span><strong id="pass">—</strong><small>Configuración recomendada</small></article><article class="card bad"><span>No cumplen</span><strong id="fail">—</strong><small>Requieren atención</small></article></div></div>
+    <div class="exclusions"><span>No aplicables <strong id="na">—</strong></span><span>No evaluados <strong id="ne">—</strong></span><span>Error de evaluación <strong id="errors">—</strong></span><span id="coverage">Cobertura sin calcular</span></div>
+    <div class="findings-heading"><h3>Tres hallazgos principales</h3><span>Prioridad por riesgo y necesidad de revisión</span></div><div id="findings" class="findings"><p class="empty">Los hallazgos se calculan con los controles del archivo cargado.</p></div>
+  </section>
+  <section id="detalle" aria-labelledby="detail-title"><div class="section-heading"><div><span class="eyebrow">EXPLORAR LA CONFIGURACIÓN</span><h2 id="detail-title">Controles de seguridad</h2></div><label class="technical"><input id="technical" type="checkbox"> Mostrar justificación técnica</label></div>
+    <div class="filters"><label>Buscar<input id="search" type="search" placeholder="ID, nombre o recomendación"></label><label>Estado<select id="state"><option value="">Todos los estados</option><option>Cumple</option><option>No cumple</option><option>No aplica</option><option>No evaluado</option><option>Error de evaluación</option></select></label><label>Riesgo<select id="risk"><option value="">Todos los riesgos</option><option>Alto</option><option>Medio</option><option>Bajo</option></select></label><button id="clear" type="button">Limpiar filtros</button></div>
+    <p id="count" class="muted">0 controles</p><div id="controls" class="control-list"><p class="empty">Carga un archivo para consultar los controles.</p></div>
+  </section>
+  <section id="comparacion" aria-labelledby="compare-title"><span class="eyebrow">EL CAMBIO, CONTROL POR CONTROL</span><h2 id="compare-title">Antes y después</h2><p>Selecciona las dos auditorías del mismo laboratorio y perfil. Se unen por ID, sin depender del orden del archivo.</p><div class="compare-inputs"><label class="card">01 · Auditoría inicial<input id="before" type="file" accept=".json,application/json"><small id="before-name">Ningún archivo seleccionado</small></label><label class="card">02 · Auditoría posterior<input id="after" type="file" accept=".json,application/json"><small id="after-name">Ningún archivo seleccionado</small></label></div><p id="compare-message" role="status" aria-live="polite">Faltan dos archivos para comparar.</p><div id="comparison"></div>
+  </section>
+  <section id="acerca" class="about" aria-labelledby="about-title"><span class="eyebrow">MÉTODO Y ALCANCE</span><h2 id="about-title">Una medida de configuración,<br>con límites visibles.</h2><div class="about-grid"><div><h3>Cómo se calcula</h3><p>Cumplimiento = cumplen ÷ (cumplen + no cumplen) × 100. «No aplica», «No evaluado» y «Error de evaluación» quedan fuera. Si no hay evaluables, el resultado es indeterminado. La cobertura se muestra por separado.</p><h3>Qué significa el color</h3><p>Verde: desde 90 %; ámbar: desde 70 %; rojo: inferior a 70 %. Son bandas visuales del proyecto, no umbrales oficiales de Microsoft. Una cobertura incompleta siempre requiere revisión.</p></div><div><h3>De dónde viene la referencia</h3><p>Veinte controles seleccionados de documentación de Microsoft. Es un perfil académico acotado; no certifica una baseline completa, ni mide todas las amenazas. Cada control incluye su fuente y su posible impacto.</p><h3>Cambios bajo control</h3><p>La web solo lee archivos. PowerShell separa Test, Set y Undo, exige confirmación y guarda los valores originales antes de remediar. El estado posterior y la reversión se comprueban con nuevas lecturas.</p></div></div><p>Proyecto de Geanina Acosta Perez y David Sancho Marín · Universidad Técnica Nacional · Profesor Marcos Castro.</p><a href="https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/windows-security-baselines" target="_blank" rel="noopener noreferrer">Consultar la guía oficial de líneas base de Microsoft ↗</a></section>
+  <footer class="main-footer">BASELINE / ISW-612<span>Configuración verificable. Seguridad en contexto.</span></footer>
+</main>
+</body></html>

@@ -1,0 +1,167 @@
+{
+  "rows": [
+    {
+      "id": "PW-01",
+      "nombre": "Longitud mínima de contraseña",
+      "antes": "No cumple",
+      "despues": "Cumple",
+      "cambio": "Mejoró"
+    },
+    {
+      "id": "PW-02",
+      "nombre": "Complejidad de contraseñas",
+      "antes": "No cumple",
+      "despues": "Cumple",
+      "cambio": "Mejoró"
+    },
+    {
+      "id": "PW-03",
+      "nombre": "Historial de contraseñas",
+      "antes": "No cumple",
+      "despues": "Cumple",
+      "cambio": "Mejoró"
+    },
+    {
+      "id": "PW-04",
+      "nombre": "Edad mínima de contraseña",
+      "antes": "No cumple",
+      "despues": "Cumple",
+      "cambio": "Mejoró"
+    },
+    {
+      "id": "AC-01",
+      "nombre": "Umbral de bloqueo de cuentas",
+      "antes": "Cumple",
+      "despues": "Cumple",
+      "cambio": "Igual"
+    },
+    {
+      "id": "AC-02",
+      "nombre": "Duración del bloqueo",
+      "antes": "No cumple",
+      "despues": "Cumple",
+      "cambio": "Mejoró"
+    },
+    {
+      "id": "AC-03",
+      "nombre": "Reinicio del contador de bloqueo",
+      "antes": "No cumple",
+      "despues": "Cumple",
+      "cambio": "Mejoró"
+    },
+    {
+      "id": "FW-Domain",
+      "nombre": "Firewall: perfil Domain",
+      "antes": "Cumple",
+      "despues": "Cumple",
+      "cambio": "Igual"
+    },
+    {
+      "id": "FW-Private",
+      "nombre": "Firewall: perfil Private",
+      "antes": "Cumple",
+      "despues": "Cumple",
+      "cambio": "Igual"
+    },
+    {
+      "id": "FW-Public",
+      "nombre": "Firewall: perfil Public",
+      "antes": "Cumple",
+      "despues": "Cumple",
+      "cambio": "Igual"
+    },
+    {
+      "id": "UAC-01",
+      "nombre": "UAC habilitado",
+      "antes": "Cumple",
+      "despues": "Cumple",
+      "cambio": "Igual"
+    },
+    {
+      "id": "UAC-02",
+      "nombre": "Consentimiento administrativo",
+      "antes": "No cumple",
+      "despues": "Cumple",
+      "cambio": "Mejoró"
+    },
+    {
+      "id": "UAC-03",
+      "nombre": "Escritorio seguro para elevación",
+      "antes": "Cumple",
+      "despues": "Cumple",
+      "cambio": "Igual"
+    },
+    {
+      "id": "SMB-01",
+      "nombre": "SMBv1 deshabilitado en servidor",
+      "antes": "Cumple",
+      "despues": "Cumple",
+      "cambio": "Igual"
+    },
+    {
+      "id": "RDP-01",
+      "nombre": "NLA exigida en el listener RDP",
+      "antes": "Cumple",
+      "despues": "Cumple",
+      "cambio": "Igual"
+    },
+    {
+      "id": "AU-01",
+      "nombre": "Auditoría de inicio de sesión",
+      "antes": "Cumple",
+      "despues": "Cumple",
+      "cambio": "Igual"
+    },
+    {
+      "id": "AU-03",
+      "nombre": "Auditoría de gestión de cuentas",
+      "antes": "No cumple",
+      "despues": "Cumple",
+      "cambio": "Mejoró"
+    },
+    {
+      "id": "SEC-01",
+      "nombre": "Cuenta Invitado integrada deshabilitada",
+      "antes": "Cumple",
+      "despues": "Cumple",
+      "cambio": "Igual"
+    },
+    {
+      "id": "AU-02",
+      "nombre": "Capacidad máxima del registro Security",
+      "antes": "No cumple",
+      "despues": "Cumple",
+      "cambio": "Mejoró"
+    },
+    {
+      "id": "PW-05",
+      "nombre": "Cifrado reversible de contraseñas deshabilitado",
+      "antes": "Cumple",
+      "despues": "Cumple",
+      "cambio": "Igual"
+    }
+  ],
+  "antes": {
+    "total": 20,
+    "evaluados": 20,
+    "cumplen": 11,
+    "no_cumplen": 9,
+    "no_aplica": 0,
+    "no_evaluados": 0,
+    "errores": 0,
+    "porcentaje_cumplimiento": 55
+  },
+  "despues": {
+    "total": 20,
+    "evaluados": 20,
+    "cumplen": 20,
+    "no_cumplen": 0,
+    "no_aplica": 0,
+    "no_evaluados": 0,
+    "errores": 0,
+    "porcentaje_cumplimiento": 100
+  },
+  "delta": 45,
+  "denominador_comun": 20,
+  "delta_comun": 45
+}

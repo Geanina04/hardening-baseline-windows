@@ -1,0 +1,33 @@
+﻿{
+    "fecha":  "2026-10-26T14:11:14.1878010-06:00",
+    "firewall":  [
+                     {
+                         "Name":  "Domain",
+                         "Enabled":  1
+                     },
+                     {
+                         "Name":  "Private",
+                         "Enabled":  1
+                     },
+                     {
+                         "Name":  "Public",
+                         "Enabled":  1
+                     }
+                 ],
+    "servicios":  [
+                      {
+                          "Name":  "EventLog",
+                          "Status":  4
+                      },
+                      {
+                          "Name":  "LanmanServer",
+                          "Status":  4
+                      },
+                      {
+                          "Name":  "MpsSvc",
+                          "Status":  4
+                      }
+                  ],
+    "rdp_habilitado":  false,
+    "nota":  "Observación acotada: no se prueban aplicaciones heredadas, contraseñas ni clientes RDP/SMB externos."
+}

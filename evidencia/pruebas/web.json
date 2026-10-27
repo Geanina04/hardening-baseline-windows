@@ -1,0 +1,70 @@
+{
+  "fecha": "2026-10-26T20:52:23.594Z",
+  "navegador": "Microsoft Edge / Playwright; file://; sin servidor",
+  "casos": [
+    {
+      "prueba": "Apertura local sin servidor y sin puntaje fijo",
+      "resultado": "Pasa"
+    },
+    {
+      "prueba": "Ejemplo real, métricas y gráfico calculados",
+      "resultado": "Pasa"
+    },
+    {
+      "prueba": "Carga de JSON real posterior",
+      "resultado": "Pasa"
+    },
+    {
+      "prueba": "Filtros por estado, riesgo y buscador",
+      "resultado": "Pasa"
+    },
+    {
+      "prueba": "Detalle, justificación técnica y uso por teclado",
+      "resultado": "Pasa"
+    },
+    {
+      "prueba": "Modo oscuro",
+      "resultado": "Pasa"
+    },
+    {
+      "prueba": "Comparación real: 45 pp, nueve mejoras, cero deterioros",
+      "resultado": "Pasa"
+    },
+    {
+      "prueba": "Exportación de JSON conserva los datos",
+      "resultado": "Pasa"
+    },
+    {
+      "prueba": "Impresión PDF legible",
+      "resultado": "Pasa"
+    },
+    {
+      "prueba": "Archivos vacíos, dañados e incompatibles sin romper la vista",
+      "resultado": "Pasa"
+    },
+    {
+      "prueba": "Límite de tamaño y archivo incompleto",
+      "resultado": "Pasa"
+    },
+    {
+      "prueba": "JSON hostil: texto HTML y URL javascript no se ejecutan",
+      "resultado": "Pasa"
+    },
+    {
+      "prueba": "Arrastrar y soltar un JSON real",
+      "resultado": "Pasa"
+    },
+    {
+      "prueba": "CSP bloquea script inyectado y conexiones de datos",
+      "resultado": "Pasa"
+    },
+    {
+      "prueba": "Responsive móvil: sin desbordamiento horizontal",
+      "resultado": "Pasa"
+    },
+    {
+      "prueba": "Sin errores JavaScript ni tráfico HTTP",
+      "resultado": "Pasa"
+    }
+  ]
+}

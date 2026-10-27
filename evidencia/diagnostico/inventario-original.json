@@ -1,0 +1,47 @@
+[
+  {
+    "path": "bitacora-ia.md",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "datos\\auditoria-inicial.json",
+    "size": 7333,
+    "sha256": "5463ee2b3f673d7254b029f2d6d082fd83eaa3a23c70afbd1900b52f6d230f12"
+  },
+  {
+    "path": "datos\\prueba-AU02.json",
+    "size": 363,
+    "sha256": "d930deb5622a95325eaa4f852f15af0c042d3350ebb2ff65c75e6ca85fc400e6"
+  },
+  {
+    "path": "docs\\Ficha Entregable 0.pdf",
+    "size": 353328,
+    "sha256": "e6f0977c2d73bcaa033dd745f1511a62645b2c4a51b0824cb936c3abb832af7b"
+  },
+  {
+    "path": "README.md",
+    "size": 1980,
+    "sha256": "90f1dd51a4a69cabf4521485b76769e54250f68990ad6bc90e8f68842655f118"
+  },
+  {
+    "path": "requerimentos\\Trabajo_Investigacion_Unidad3_ISW612.pdf",
+    "size": 284329,
+    "sha256": "a29db3ae0b733fb803df129707ee9d017fbf4b2832e100d303a4b8df35bc423f"
+  },
+  {
+    "path": "respaldos\\AU02-estado-previo.json",
+    "size": 192,
+    "sha256": "05a45d5450514d32672748cb48a85ce84cc2299eb3028994b5efada036a356ed"
+  },
+  {
+    "path": "script\\Auditar-Baseline.ps1",
+    "size": 13689,
+    "sha256": "412357449f1fe6caba7ba7b0bd7a0e8ee72f7a82a41c7f77c474c9466ab37a38"
+  },
+  {
+    "path": "script\\Control-AU02.ps1",
+    "size": 3940,
+    "sha256": "ff14352ac484a387bfff9f1d39c34dcb7176e369a9dcf84d768945670d7cbf8e"
+  }
+]

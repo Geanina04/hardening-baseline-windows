@@ -1,0 +1,265 @@
+{
+    "fecha":  "2026-10-26T14:11:17.4954908-06:00",
+    "respaldo_id":  "512b52f1eda447479572daf0f6bb7818",
+    "operaciones":  [
+                        {
+                            "id":  "PW-05",
+                            "accion":  "Undo",
+                            "resultado":  "Restaurado y verificado",
+                            "original":  {
+                                             "value":  0
+                                         },
+                            "restaurado":  {
+                                               "value":  0
+                                           },
+                            "error":  null
+                        },
+                        {
+                            "id":  "AU-02",
+                            "accion":  "Undo",
+                            "resultado":  "Restaurado y verificado",
+                            "original":  {
+                                             "value":  20971520
+                                         },
+                            "restaurado":  {
+                                               "value":  20971520
+                                           },
+                            "error":  null
+                        },
+                        {
+                            "id":  "SEC-01",
+                            "accion":  "Undo",
+                            "resultado":  "Restaurado y verificado",
+                            "original":  {
+                                             "value":  false
+                                         },
+                            "restaurado":  {
+                                               "value":  false
+                                           },
+                            "error":  null
+                        },
+                        {
+                            "id":  "AU-03",
+                            "accion":  "Undo",
+                            "resultado":  "Restaurado y verificado",
+                            "original":  {
+                                             "value":  1
+                                         },
+                            "restaurado":  {
+                                               "value":  1
+                                           },
+                            "error":  null
+                        },
+                        {
+                            "id":  "AU-01",
+                            "accion":  "Undo",
+                            "resultado":  "Restaurado y verificado",
+                            "original":  {
+                                             "value":  3
+                                         },
+                            "restaurado":  {
+                                               "value":  3
+                                           },
+                            "error":  null
+                        },
+                        {
+                            "id":  "RDP-01",
+                            "accion":  "Undo",
+                            "resultado":  "Restaurado y verificado",
+                            "original":  {
+                                             "value":  1,
+                                             "source":  0,
+                                             "registry":  {
+                                                              "keyExists":  true,
+                                                              "propertyExists":  true,
+                                                              "value":  1,
+                                                              "kind":  "DWord"
+                                                          }
+                                         },
+                            "restaurado":  {
+                                               "value":  1,
+                                               "source":  0,
+                                               "registry":  {
+                                                                "keyExists":  true,
+                                                                "propertyExists":  true,
+                                                                "value":  1,
+                                                                "kind":  "DWord"
+                                                            }
+                                           },
+                            "error":  null
+                        },
+                        {
+                            "id":  "SMB-01",
+                            "accion":  "Undo",
+                            "resultado":  "Restaurado y verificado",
+                            "original":  {
+                                             "value":  false
+                                         },
+                            "restaurado":  {
+                                               "value":  false
+                                           },
+                            "error":  null
+                        },
+                        {
+                            "id":  "UAC-03",
+                            "accion":  "Undo",
+                            "resultado":  "Restaurado y verificado",
+                            "original":  {
+                                             "keyExists":  true,
+                                             "propertyExists":  true,
+                                             "value":  1,
+                                             "kind":  "DWord"
+                                         },
+                            "restaurado":  {
+                                               "keyExists":  true,
+                                               "propertyExists":  true,
+                                               "value":  1,
+                                               "kind":  "DWord"
+                                           },
+                            "error":  null
+                        },
+                        {
+                            "id":  "UAC-02",
+                            "accion":  "Undo",
+                            "resultado":  "Restaurado y verificado",
+                            "original":  {
+                                             "keyExists":  true,
+                                             "propertyExists":  true,
+                                             "value":  5,
+                                             "kind":  "DWord"
+                                         },
+                            "restaurado":  {
+                                               "keyExists":  true,
+                                               "propertyExists":  true,
+                                               "value":  5,
+                                               "kind":  "DWord"
+                                           },
+                            "error":  null
+                        },
+                        {
+                            "id":  "UAC-01",
+                            "accion":  "Undo",
+                            "resultado":  "Restaurado y verificado",
+                            "original":  {
+                                             "keyExists":  true,
+                                             "propertyExists":  true,
+                                             "value":  1,
+                                             "kind":  "DWord"
+                                         },
+                            "restaurado":  {
+                                               "keyExists":  true,
+                                               "propertyExists":  true,
+                                               "value":  1,
+                                               "kind":  "DWord"
+                                           },
+                            "error":  null
+                        },
+                        {
+                            "id":  "FW-Public",
+                            "accion":  "Undo",
+                            "resultado":  "Restaurado y verificado",
+                            "original":  {
+                                             "value":  1,
+                                             "local":  1
+                                         },
+                            "restaurado":  {
+                                               "value":  1,
+                                               "local":  1
+                                           },
+                            "error":  null
+                        },
+                        {
+                            "id":  "FW-Private",
+                            "accion":  "Undo",
+                            "resultado":  "Restaurado y verificado",
+                            "original":  {
+                                             "value":  1,
+                                             "local":  1
+                                         },
+                            "restaurado":  {
+                                               "value":  1,
+                                               "local":  1
+                                           },
+                            "error":  null
+                        },
+                        {
+                            "id":  "FW-Domain",
+                            "accion":  "Undo",
+                            "resultado":  "Restaurado y verificado",
+                            "original":  {
+                                             "value":  1,
+                                             "local":  1
+                                         },
+                            "restaurado":  {
+                                               "value":  1,
+                                               "local":  1
+                                           },
+                            "error":  null
+                        },
+                        {
+                            "id":  "PW-04",
+                            "accion":  "Undo",
+                            "resultado":  "Restaurado y verificado",
+                            "original":  {
+                                             "value":  0
+                                         },
+                            "restaurado":  {
+                                               "value":  0
+                                           },
+                            "error":  null
+                        },
+                        {
+                            "id":  "PW-03",
+                            "accion":  "Undo",
+                            "resultado":  "Restaurado y verificado",
+                            "original":  {
+                                             "value":  0
+                                         },
+                            "restaurado":  {
+                                               "value":  0
+                                           },
+                            "error":  null
+                        },
+                        {
+                            "id":  "PW-02",
+                            "accion":  "Undo",
+                            "resultado":  "Restaurado y verificado",
+                            "original":  {
+                                             "value":  0
+                                         },
+                            "restaurado":  {
+                                               "value":  0
+                                           },
+                            "error":  null
+                        },
+                        {
+                            "id":  "PW-01",
+                            "accion":  "Undo",
+                            "resultado":  "Restaurado y verificado",
+                            "original":  {
+                                             "value":  0
+                                         },
+                            "restaurado":  {
+                                               "value":  0
+                                           },
+                            "error":  null
+                        },
+                        {
+                            "id":  "AC-grupo",
+                            "accion":  "Undo",
+                            "resultado":  "Restaurado y verificado",
+                            "original":  {
+                                             "LockoutBadCount":  10,
+                                             "LockoutDuration":  10,
+                                             "ResetLockoutCount":  10
+                                         },
+                            "restaurado":  {
+                                               "LockoutBadCount":  10,
+                                               "LockoutDuration":  10,
+                                               "ResetLockoutCount":  10
+                                           },
+                            "error":  null
+                        }
+                    ],
+    "restauracion_completa":  true
+}

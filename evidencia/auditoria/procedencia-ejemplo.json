@@ -1,0 +1,8 @@
+{
+  "archivo_origen": "datos/auditoria-inicial.json",
+  "ejecucion_id": "fe3fb167-e9de-47a9-bf5f-dbb613d46582",
+  "fecha": "2026-10-26T14:11:08.1267619-06:00",
+  "origen": "real",
+  "sha256": "ee1647a1a88c26d4478b03202962464f621ab8d0f5cf2aadd5c2d03efe2b0287",
+  "nota": "Mismos valores y metadatos de la auditoría inicial; únicamente se cambia indentación. No contiene nombre de equipo ni usuarios."
+}

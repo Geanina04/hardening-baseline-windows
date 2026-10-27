@@ -1,0 +1,139 @@
+{
+  "equipo": "[omitido por privacidad]",
+  "fecha": "2026-10-24T18:28:05.3341833-06:00",
+  "sistema": "Microsoft Windows 10 Pro",
+  "tipo": "auditoria_baseline_consolidada_solo_lectura",
+  "nota": "Los umbrales provisionales requieren benchmark, version y perfil documentados.",
+  "resumen": {
+    "total": 15,
+    "evaluados": 13,
+    "cumplen": 10,
+    "no_cumplen": 3,
+    "no_evaluados": 0,
+    "no_aplica": 2,
+    "porcentaje_cumplimiento": 76.92
+  },
+  "controles": [
+    {
+      "id": "FW-Domain",
+      "nombre": "Firewall perfil Domain habilitado",
+      "esperado": "Enabled=True",
+      "actual": "True",
+      "estado": "Cumple",
+      "detalle": "Consulta de solo lectura mediante Get-NetFirewallProfile."
+    },
+    {
+      "id": "FW-Private",
+      "nombre": "Firewall perfil Private habilitado",
+      "esperado": "Enabled=True",
+      "actual": "True",
+      "estado": "Cumple",
+      "detalle": "Consulta de solo lectura mediante Get-NetFirewallProfile."
+    },
+    {
+      "id": "FW-Public",
+      "nombre": "Firewall perfil Public habilitado",
+      "esperado": "Enabled=True",
+      "actual": "True",
+      "estado": "Cumple",
+      "detalle": "Consulta de solo lectura mediante Get-NetFirewallProfile."
+    },
+    {
+      "id": "UAC-01",
+      "nombre": "UAC habilitado",
+      "esperado": "EnableLUA=1",
+      "actual": "EnableLUA=1",
+      "estado": "Cumple",
+      "detalle": "Consulta de solo lectura del Registro."
+    },
+    {
+      "id": "SMB-01",
+      "nombre": "SMBv1 deshabilitado",
+      "esperado": "Disabled",
+      "actual": "Disabled",
+      "estado": "Cumple",
+      "detalle": "Consulta de solo lectura."
+    },
+    {
+      "id": "RDP-01",
+      "nombre": "RDP deshabilitado o NLA habilitado",
+      "esperado": "RDP deshabilitado o NLA=1",
+      "actual": "RDP deshabilitado",
+      "estado": "Cumple",
+      "detalle": "fDenyTSConnections=1 indica que RDP esta deshabilitado."
+    },
+    {
+      "id": "PW-01",
+      "nombre": "Longitud minima de contrasena",
+      "esperado": ">=14 (criterio provisional)",
+      "actual": "0",
+      "estado": "No cumple",
+      "detalle": "Valor consultado en la politica local. Confirmar el criterio con la linea base elegida."
+    },
+    {
+      "id": "PW-02",
+      "nombre": "Historial de contrasenas",
+      "esperado": ">=24 (criterio provisional)",
+      "actual": "0",
+      "estado": "No cumple",
+      "detalle": "Valor consultado en la politica local. Confirmar el criterio con la linea base elegida."
+    },
+    {
+      "id": "PW-03",
+      "nombre": "Antiguedad maxima de contrasena",
+      "esperado": "Entre 1 y 365 dias (criterio provisional)",
+      "actual": "42",
+      "estado": "Cumple",
+      "detalle": "Valor consultado en la politica local. Confirmar el criterio con la linea base elegida."
+    },
+    {
+      "id": "AC-01",
+      "nombre": "Umbral de bloqueo de cuenta",
+      "esperado": "Entre 1 y 10 intentos (criterio provisional)",
+      "actual": "0",
+      "estado": "No cumple",
+      "detalle": "Valor consultado en la politica local. Confirmar el criterio con la linea base elegida."
+    },
+    {
+      "id": "AC-02",
+      "nombre": "Duracion del bloqueo de cuenta",
+      "esperado": ">=15 minutos (criterio provisional)",
+      "actual": "No aplica: umbral de bloqueo = 0",
+      "estado": "No aplica",
+      "detalle": "El bloqueo por intentos fallidos no esta activo; revisar AC-01."
+    },
+    {
+      "id": "AC-03",
+      "nombre": "Restablecimiento del contador de bloqueo",
+      "esperado": ">=15 minutos (criterio provisional)",
+      "actual": "No aplica: umbral de bloqueo = 0",
+      "estado": "No aplica",
+      "detalle": "El bloqueo por intentos fallidos no esta activo; revisar AC-01."
+    },
+    {
+      "id": "SEC-01",
+      "nombre": "Cuenta integrada Guest deshabilitada",
+      "esperado": "Enabled=False",
+      "actual": "Nombre=Invitado; Enabled=False",
+      "estado": "Cumple",
+      "detalle": "Cuenta identificada por SID -501; el nombre puede estar localizado o renombrado."
+    },
+    {
+      "id": "AU-01",
+      "nombre": "Registro de seguridad habilitado",
+      "esperado": "IsEnabled=True",
+      "actual": "True",
+      "estado": "Cumple",
+      "detalle": "Comprueba el registro; no confirma todas las subcategorias de auditoria."
+    },
+    {
+      "id": "AU-02",
+      "nombre": "Tamano del registro Security",
+      "esperado": ">=20 MB (criterio provisional)",
+      "actual": "20 MB",
+      "estado": "Cumple",
+      "detalle": "Criterio provisional: confirmar el valor esperado con el benchmark elegido."
+    }
+  ],
+  "nota_privacidad": "Se omitió únicamente equipo; original sin editar y hash conservados en respaldo local e inventario. Medición histórica sin validación independiente; no se mezcla con el experimento de 20 controles."
+}

@@ -1,0 +1,46 @@
+{
+  "fecha": "2026-10-26T20:47:03.295Z",
+  "pdf_paginas_total": 20,
+  "pdf_paginas_sin_anexos": 15,
+  "resumen_palabras": 200,
+  "diapositivas": 13,
+  "limite": "PPTX inspeccionado como paquete OOXML y previsualizado desde coordenadas; apertura en PowerPoint y revisión académica pendientes.",
+  "casos": [
+    {
+      "prueba": "PDF legible: cuerpo de 10–15 páginas y anexos separados",
+      "resultado": "Pasa"
+    },
+    {
+      "prueba": "Resumen de 150–250 palabras",
+      "resultado": "Pasa"
+    },
+    {
+      "prueba": "PDF contiene resultados, limitaciones, bitácora y referencias",
+      "resultado": "Pasa"
+    },
+    {
+      "prueba": "Al menos ocho fuentes verificadas, cuatro oficiales y sin fechas futuras",
+      "resultado": "Pasa"
+    },
+    {
+      "prueba": "DOCX válido con márgenes de 2,54 cm, doble espacio y Times New Roman",
+      "resultado": "Pasa"
+    },
+    {
+      "prueba": "PPTX válido: trece diapositivas con notas de ambos integrantes",
+      "resultado": "Pasa"
+    },
+    {
+      "prueba": "Elementos PPTX dentro del área de diapositiva",
+      "resultado": "Pasa"
+    },
+    {
+      "prueba": "PDF históricos intactos: mismo SHA-256 del inventario inicial",
+      "resultado": "Pasa"
+    },
+    {
+      "prueba": "Previsualización PPTX sin desbordamientos detectados",
+      "resultado": "Pasa"
+    }
+  ]
+}

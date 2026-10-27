@@ -1,0 +1,283 @@
+{
+    "respaldo_id":  "512b52f1eda447479572daf0f6bb7818",
+    "operaciones":  [
+                        {
+                            "id":  "PW-01",
+                            "fecha":  "2026-10-26T14:11:09.1130986-06:00",
+                            "accion":  "Set",
+                            "resultado":  "Verificado",
+                            "antes":  {
+                                          "value":  0
+                                      },
+                            "despues":  {
+                                            "value":  14
+                                        },
+                            "error":  null,
+                            "reinicio_requerido":  false
+                        },
+                        {
+                            "id":  "PW-02",
+                            "fecha":  "2026-10-26T14:11:09.6093024-06:00",
+                            "accion":  "Set",
+                            "resultado":  "Verificado",
+                            "antes":  {
+                                          "value":  0
+                                      },
+                            "despues":  {
+                                            "value":  1
+                                        },
+                            "error":  null,
+                            "reinicio_requerido":  false
+                        },
+                        {
+                            "id":  "PW-03",
+                            "fecha":  "2026-10-26T14:11:09.8978203-06:00",
+                            "accion":  "Set",
+                            "resultado":  "Verificado",
+                            "antes":  {
+                                          "value":  0
+                                      },
+                            "despues":  {
+                                            "value":  24
+                                        },
+                            "error":  null,
+                            "reinicio_requerido":  false
+                        },
+                        {
+                            "id":  "PW-04",
+                            "fecha":  "2026-10-26T14:11:10.1427133-06:00",
+                            "accion":  "Set",
+                            "resultado":  "Verificado",
+                            "antes":  {
+                                          "value":  0
+                                      },
+                            "despues":  {
+                                            "value":  1
+                                        },
+                            "error":  null,
+                            "reinicio_requerido":  false
+                        },
+                        {
+                            "id":  "AC-01",
+                            "fecha":  "2026-10-26T14:11:10.4236245-06:00",
+                            "accion":  "Set",
+                            "resultado":  "Sin cambios",
+                            "antes":  {
+                                          "value":  10
+                                      },
+                            "despues":  null,
+                            "error":  null,
+                            "reinicio_requerido":  false
+                        },
+                        {
+                            "id":  "AC-02",
+                            "fecha":  "2026-10-26T14:11:10.4434353-06:00",
+                            "accion":  "Set",
+                            "resultado":  "Verificado",
+                            "antes":  {
+                                          "value":  10
+                                      },
+                            "despues":  {
+                                            "value":  15
+                                        },
+                            "error":  null,
+                            "reinicio_requerido":  false
+                        },
+                        {
+                            "id":  "AC-03",
+                            "fecha":  "2026-10-26T14:11:10.7478194-06:00",
+                            "accion":  "Set",
+                            "resultado":  "Sin cambios",
+                            "antes":  {
+                                          "value":  10
+                                      },
+                            "despues":  null,
+                            "error":  null,
+                            "reinicio_requerido":  false
+                        },
+                        {
+                            "id":  "FW-Domain",
+                            "fecha":  "2026-10-26T14:11:10.7771097-06:00",
+                            "accion":  "Set",
+                            "resultado":  "Sin cambios",
+                            "antes":  {
+                                          "value":  1,
+                                          "local":  1
+                                      },
+                            "despues":  null,
+                            "error":  null,
+                            "reinicio_requerido":  false
+                        },
+                        {
+                            "id":  "FW-Private",
+                            "fecha":  "2026-10-26T14:11:10.9090282-06:00",
+                            "accion":  "Set",
+                            "resultado":  "Sin cambios",
+                            "antes":  {
+                                          "value":  1,
+                                          "local":  1
+                                      },
+                            "despues":  null,
+                            "error":  null,
+                            "reinicio_requerido":  false
+                        },
+                        {
+                            "id":  "FW-Public",
+                            "fecha":  "2026-10-26T14:11:10.9995781-06:00",
+                            "accion":  "Set",
+                            "resultado":  "Sin cambios",
+                            "antes":  {
+                                          "value":  1,
+                                          "local":  1
+                                      },
+                            "despues":  null,
+                            "error":  null,
+                            "reinicio_requerido":  false
+                        },
+                        {
+                            "id":  "UAC-01",
+                            "fecha":  "2026-10-26T14:11:11.0870553-06:00",
+                            "accion":  "Set",
+                            "resultado":  "Sin cambios",
+                            "antes":  {
+                                          "keyExists":  true,
+                                          "propertyExists":  true,
+                                          "value":  1,
+                                          "kind":  "DWord"
+                                      },
+                            "despues":  null,
+                            "error":  null,
+                            "reinicio_requerido":  false
+                        },
+                        {
+                            "id":  "UAC-02",
+                            "fecha":  "2026-10-26T14:11:11.1696488-06:00",
+                            "accion":  "Set",
+                            "resultado":  "Verificado",
+                            "antes":  {
+                                          "keyExists":  true,
+                                          "propertyExists":  true,
+                                          "value":  5,
+                                          "kind":  "DWord"
+                                      },
+                            "despues":  {
+                                            "keyExists":  true,
+                                            "propertyExists":  true,
+                                            "value":  2,
+                                            "kind":  "DWord"
+                                        },
+                            "error":  null,
+                            "reinicio_requerido":  false
+                        },
+                        {
+                            "id":  "UAC-03",
+                            "fecha":  "2026-10-26T14:11:11.2520839-06:00",
+                            "accion":  "Set",
+                            "resultado":  "Sin cambios",
+                            "antes":  {
+                                          "keyExists":  true,
+                                          "propertyExists":  true,
+                                          "value":  1,
+                                          "kind":  "DWord"
+                                      },
+                            "despues":  null,
+                            "error":  null,
+                            "reinicio_requerido":  false
+                        },
+                        {
+                            "id":  "SMB-01",
+                            "fecha":  "2026-10-26T14:11:11.3030490-06:00",
+                            "accion":  "Set",
+                            "resultado":  "Sin cambios",
+                            "antes":  {
+                                          "value":  false
+                                      },
+                            "despues":  null,
+                            "error":  null,
+                            "reinicio_requerido":  false
+                        },
+                        {
+                            "id":  "RDP-01",
+                            "fecha":  "2026-10-26T14:11:11.3709112-06:00",
+                            "accion":  "Set",
+                            "resultado":  "Sin cambios",
+                            "antes":  {
+                                          "value":  1,
+                                          "source":  0,
+                                          "registry":  {
+                                                           "keyExists":  true,
+                                                           "propertyExists":  true,
+                                                           "value":  1,
+                                                           "kind":  "DWord"
+                                                       }
+                                      },
+                            "despues":  null,
+                            "error":  null,
+                            "reinicio_requerido":  false
+                        },
+                        {
+                            "id":  "AU-01",
+                            "fecha":  "2026-10-26T14:11:11.4377566-06:00",
+                            "accion":  "Set",
+                            "resultado":  "Sin cambios",
+                            "antes":  {
+                                          "value":  3
+                                      },
+                            "despues":  null,
+                            "error":  null,
+                            "reinicio_requerido":  false
+                        },
+                        {
+                            "id":  "AU-03",
+                            "fecha":  "2026-10-26T14:11:11.5493220-06:00",
+                            "accion":  "Set",
+                            "resultado":  "Verificado",
+                            "antes":  {
+                                          "value":  1
+                                      },
+                            "despues":  {
+                                            "value":  3
+                                        },
+                            "error":  null,
+                            "reinicio_requerido":  false
+                        },
+                        {
+                            "id":  "SEC-01",
+                            "fecha":  "2026-10-26T14:11:11.7639171-06:00",
+                            "accion":  "Set",
+                            "resultado":  "Sin cambios",
+                            "antes":  {
+                                          "value":  false
+                                      },
+                            "despues":  null,
+                            "error":  null,
+                            "reinicio_requerido":  false
+                        },
+                        {
+                            "id":  "AU-02",
+                            "fecha":  "2026-10-26T14:11:11.7883796-06:00",
+                            "accion":  "Set",
+                            "resultado":  "Verificado",
+                            "antes":  {
+                                          "value":  20971520
+                                      },
+                            "despues":  {
+                                            "value":  201326592
+                                        },
+                            "error":  null,
+                            "reinicio_requerido":  false
+                        },
+                        {
+                            "id":  "PW-05",
+                            "fecha":  "2026-10-26T14:11:11.9549223-06:00",
+                            "accion":  "Set",
+                            "resultado":  "Sin cambios",
+                            "antes":  {
+                                          "value":  0
+                                      },
+                            "despues":  null,
+                            "error":  null,
+                            "reinicio_requerido":  false
+                        }
+                    ]
+}

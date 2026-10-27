@@ -1,0 +1,42 @@
+﻿[
+    {
+        "prueba":  "Sintaxis de todos los scripts",
+        "resultado":  "Pasa",
+        "error":  null
+    },
+    {
+        "prueba":  "Veinte controles únicos y operación Test explícita",
+        "resultado":  "Pasa",
+        "error":  null
+    },
+    {
+        "prueba":  "Denominador y exclusiones",
+        "resultado":  "Pasa",
+        "error":  null
+    },
+    {
+        "prueba":  "Sin evaluables: porcentaje nulo",
+        "resultado":  "Pasa",
+        "error":  null
+    },
+    {
+        "prueba":  "Rechazo de ID desconocido",
+        "resultado":  "Pasa",
+        "error":  null
+    },
+    {
+        "prueba":  "Respaldo corrupto, sin hash o de otra VM se rechaza antes de modificar",
+        "resultado":  "Pasa",
+        "error":  null
+    },
+    {
+        "prueba":  "Privilegios insuficientes sin falso aprobado",
+        "resultado":  "Pasa",
+        "error":  null
+    },
+    {
+        "prueba":  "Undo restaura propiedad ausente, tipo y valor: clave HKCU aislada",
+        "resultado":  "Pasa",
+        "error":  null
+    }
+]

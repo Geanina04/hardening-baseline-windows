@@ -1,0 +1,14 @@
+{
+    "control": "AU-02",
+    "sistema": "Windows 10 Pro",
+    "tipo_prueba": "Simulacion sin cambios",
+    "valor_inicial_mb": 20,
+    "valor_propuesto_mb": 40,
+    "valor_reversion_mb": 20,
+    "auditoria": "Cumple",
+    "respaldo_validado": true,
+    "remediacion_simulada": true,
+    "reversion_simulada": true,
+    "cambios_reales": false
+  }
+  

@@ -1,0 +1,8 @@
+﻿{
+    "fecha":  "2026-10-26T14:05:57.9943444-06:00",
+    "fase":  "Error",
+    "error":  "Máscara auditpol no reconocida.",
+    "respaldo":  null,
+    "snapshot":  "No disponible desde el invitado; respaldo selectivo con hash",
+    "reversion_completa":  false
+}

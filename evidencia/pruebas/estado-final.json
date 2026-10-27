@@ -1,0 +1,41 @@
+{
+  "fecha": "2026-10-26T21:18:10.084Z",
+  "valores_finales_comparados": 20,
+  "diferencias": [],
+  "cumplimiento_final": 55,
+  "verificacion": "Sesión elevada nueva, lectura real posterior a todas las modificaciones del proyecto.",
+  "pruebas": [
+    {
+      "nombre": "PowerShell",
+      "total": 8,
+      "pasan": 8,
+      "fallan": 0
+    },
+    {
+      "nombre": "JSON",
+      "total": 13,
+      "pasan": 13,
+      "fallan": 0
+    },
+    {
+      "nombre": "Web",
+      "total": 16,
+      "pasan": 16,
+      "fallan": 0
+    },
+    {
+      "nombre": "Documentos",
+      "total": 9,
+      "pasan": 9,
+      "fallan": 0
+    }
+  ],
+  "total_pruebas": 46,
+  "privacidad": "No se detectó hostname real ni rutas personales de Windows en los archivos de texto públicos. No es un escáner general de secretos.",
+  "pendientes": [
+    "Repetición independiente en una VM limpia",
+    "Prueba de comprensión con persona no técnica",
+    "Apertura del PPTX en PowerPoint y ensayo de ambos integrantes",
+    "Compatibilidad con aplicaciones heredadas y ramas Set/Undo sin cambios"
+  ]
+}
